@@ -13,7 +13,6 @@ class Dashboard extends Component {
                     {this.props.tweetIds.map((id)=>(
                         <li key={id}>
                             <Tweet id={id}/>
-                            <div>Tweet ID: {id}</div>
                         </li>
                     ))}
                 </ul>
