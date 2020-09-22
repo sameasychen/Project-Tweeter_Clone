@@ -60,7 +60,7 @@ class NewTweet extends Component {
                     )}
                     <button className='btn'
                             type='submit'
-                            disabled={text == ''}>
+                            disabled={text === ''}>
                         Submit
                     </button>
                 </form>

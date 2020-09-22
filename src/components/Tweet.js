@@ -43,7 +43,7 @@ class Tweet extends Component {
             <Link to={`/tweet/${id}`} className='tweet'>
                 <img
                     src={avatar}
-                    alt={'Avatar of ${name}'}
+                    alt={`Avatar of ${name}`}
                     className='avatar'
                 />
                 <div className='tweet-info'>
